@@ -133,15 +133,31 @@ h1 {
   cursor: pointer;
 }
 
-.bible{
+.bible {
   display: flex;
 }
-.chapter{
+.chapter {
   margin-left: 10px;
-  border: 2px dashed blue;
+  border: 2px dashed rgb(178, 178, 185);
   height: 500px;
   width: 500px;
   overflow: hidden;
   overflow-y: scroll;
+  padding: 20px;
+  border-radius: 8px;
+  background: whitesmoke;
+}
 
+.list-content {
+  background: red;
+}
+
+.bible h4 {
+  padding: 10px;
+  border-bottom: 1px solid #a58080;
+}
+
+.bible h4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
