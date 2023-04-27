@@ -9,17 +9,17 @@ This is a simple Bible application that contains the books of the bible arranged
 ## The Application Build Up
 I created two HTML files of tittles 'index' for the home page and 'bibleApp1' that displays the bible content for this application and two Javascript files 'bibleApp' and 'bibleApp2' that are linked to the home page and the content page respectively. A css file is cretaed that contains the styling for the application and two JSON files that hold the old and the new testament details. 
 
-The bibleApp JS file holds the codes for the random verse and the Read button funtionalities on the home page and the bibleApp2 JS file controls the Bible contents of the application. 
+The bibleApp JS file holds the codes for the random verse and the Read button funtionalities on the home page and the bibleApp2 JS file controls the Bible contents of the application. There is also an image folder that houses the background image on the home page.
 
 ### The Read Button
 I added a "click" event listener to the button that takes the user to the next page using the window.location method that is linked to the second html file for the bible contents page. 
 
 ### The Randon Verse
-An array of verses was created and I used the math.floor method to display a random verse from the array anytime the page is loaded.
+An array of verses was created and I used the math.floor method to display a random verse from the array on the home page anytime the page is loaded.
 
 
 ## The Bible content
-This code is written in JavaScript and fetches two JSON files from the server, one for the Old Testament and one for the New Testament. It then creates a list of the books in each testament and displays them on the flexed page. When a user clicks on a book, the chapters of that book are displayed, and when a user clicks on a chapter, the content of that chapter is displayed.
+This code is written in JavaScript and fetches two JSON files from the server, one for the Old Testament and the other for the New Testament. It then creates a list of the books in each testament and displays them on the flexed page. When a user clicks on a book, the chapters of that book are displayed, and when a user clicks on a chapter, the content of that chapter is displayed.
 
 ### Step by step explanation of the code  
 
