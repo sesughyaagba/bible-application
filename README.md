@@ -5,7 +5,7 @@ This is a simple Bible application that contains the books of the bible arranged
 * When a book is selected, the chapters are displayed.
 * When a chapter is selected, all the verses are displayed. 
 
-##The Run Through
+## The Run Through
 I created two HTML files of tittles 'index' for the home page and 'bibleApp1.html' that displays the bible for thisapplication and two Javascript files 'bibleApp' and 'bibleApp2' that are linked to the home page and the content page respectively.
 
 #### The Read
