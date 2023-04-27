@@ -1,4 +1,11 @@
 # Bible Application
+This is a simple Bible application that contains the books of the bible arranged alphabetically with 10 chapters and 20 verses of the same book across board. When the application is aunched, the following actions are executed.
+* You are redirected to the homepage which have a scripture displayed from a random selection.
+* The home page contains a 'read' button that takes the user into the application that displays the books of the Bible in Alphabetical order, sectioned according to testament i.e. Old testament and new testament.
+* When a book is selected, the chapters are displayed.
+* When a chapter is selected, all the verses are displayed. 
+
+
 
 ##### This code is written in JavaScript and fetches two JSON files from the server, one for the Old Testament and one for the New Testament. It then creates a list of the books in each testament and displays them on the flexed page. When a user clicks on a book, the chapters of that book are displayed, and when a user clicks on a chapter, the content of that chapter is displayed.
 
