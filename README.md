@@ -6,19 +6,19 @@ This is a simple Bible application that contains the books of the bible arranged
 * When a book is selected, the chapters are displayed.
 * When a chapter is selected, all the verses are displayed. 
 
-## The App Build Up
+## The Application Build Up
 I created two HTML files of tittles 'index' for the home page and 'bibleApp1' that displays the bible content for this application and two Javascript files 'bibleApp' and 'bibleApp2' that are linked to the home page and the content pages respectively. A css file is cretaed that contains the styling for the application. 
 
 The bibleApp JS file holds the codes for the random verse and the Read button funtionalities on the home page and the bibleApp2 JS file controls the Bible contents of the application. 
 
-#### The Read Button
+### The Read Button
 I added a "click" event listener to the button that takes the user to the next page using the window.location method that is linked to the second html file for the bible contents page. 
 
 ### The Randon Verse
 An array of verses was created and I used the math.floor method to display a random verse from the array anytime the page is loaded.
 
 
-#### The Bible content
+## The Bible content
 This code is written in JavaScript and fetches two JSON files from the server, one for the Old Testament and one for the New Testament. It then creates a list of the books in each testament and displays them on the flexed page. When a user clicks on a book, the chapters of that book are displayed, and when a user clicks on a chapter, the content of that chapter is displayed.
 
 ### Step by step explanation of the code  
