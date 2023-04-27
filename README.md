@@ -7,7 +7,7 @@ This is a simple Bible application that contains the books of the bible arranged
 * When a chapter is selected, all the verses are displayed. 
 
 ## The Application Build Up
-I created two HTML files of tittles 'index' for the home page and 'bibleApp1' that displays the bible content for this application and two Javascript files 'bibleApp' and 'bibleApp2' that are linked to the home page and the content page respectively. A css file is cretaed that contains the styling for the application. 
+I created two HTML files of tittles 'index' for the home page and 'bibleApp1' that displays the bible content for this application and two Javascript files 'bibleApp' and 'bibleApp2' that are linked to the home page and the content page respectively. A css file is cretaed that contains the styling for the application and two JSON files that hold the old and the new testament details. 
 
 The bibleApp JS file holds the codes for the random verse and the Read button funtionalities on the home page and the bibleApp2 JS file controls the Bible contents of the application. 
 
