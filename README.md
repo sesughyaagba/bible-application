@@ -6,7 +6,9 @@ This is a simple Bible application that contains the books of the bible arranged
 * When a chapter is selected, all the verses are displayed. 
 
 ## The Run Through
-I created two HTML files of tittles 'index' for the home page and 'bibleApp1.html' that displays the bible for thisapplication and two Javascript files 'bibleApp' and 'bibleApp2' that are linked to the home page and the content page respectively.
+I created two HTML files of tittles 'index' for the home page and 'bibleApp1' that displays the bible content for this application and two Javascript files 'bibleApp' and 'bibleApp2' that are linked to the home page and the content page respectively.
+
+The bibleApp JS file holds the codes for the random verse and the Read button funtionalities on the home page. 
 
 #### The Read
 I added Added a "click" event listener to the button that takes the user to the next page using the window.location method that links to the second html file for the bible contents page. 
